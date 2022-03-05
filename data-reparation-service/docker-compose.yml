@@ -1,0 +1,46 @@
+version: '3'
+networks:
+  test:
+    driver: bridge
+
+services:
+ 
+  elasticsearchR:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.8.7
+    container_name: elasticsearch
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./elasticsearch:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+    command: elasticsearch -Enetwork.host=_local_,_site_ -Enetwork.publish_host=_local_
+    healthcheck:
+      test: "wget -q -O - http://localhost:9200/_cat/health"
+      interval: 1s
+      timeout: 30s
+      retries: 300
+    ulimits:
+      nproc: 65536
+      nofile:
+        soft: 65536
+        hard: 65536
+      memlock:
+        soft: -1
+        hard: -1
+    networks:
+      - test
+    
+  reparation-services-data:
+    container_name: reparation-services-data
+    build: ./web
+    restart: always
+    ports:
+      - "5050:5050"
+    depends_on:
+      - elasticsearchR
+    volumes:
+      - ./web:/app  
+networks:
+  test:
+    driver: bridge
+    
