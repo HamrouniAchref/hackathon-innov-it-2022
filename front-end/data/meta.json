@@ -1,0 +1,33 @@
+{
+  "logo": "/img/capture.png",
+  "menus": [
+    {
+      "page": "Acceuil",
+      "url": "/"
+    },
+    {
+      "page": "Utilisateur",
+      "url": "/products"
+    },
+    {
+      "page": "Reparateur",
+      "url": "/values"
+    },
+    {
+      "page": "Formation",
+      "url": "/post"
+    },
+    {
+      "page": "Team",
+      "url": "/team"
+    },
+    {
+      "page": "Contact",
+      "url": "/contact"
+    },
+    {
+      "page": "Connexion",
+      "url": "/sign"
+    }
+  ]
+}
