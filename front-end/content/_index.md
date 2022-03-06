@@ -4,19 +4,19 @@ subtitle: Le coût de la protection du milieu naturel est beaucoup plus faible q
 image: /img/about-shade-grown.jpg
 blurb:
   heading: Pourquoi Greenland?
-  text: "Pour augmenter la qualité dde sol, diminuer les dechets menagers, diminiuer les dechets des telephones portable."
+  text: "L'absence d'utilisation de produits chimiques de synthèse (engrais azoté, pesticides) réduit le coût de dépollution de l'eau; La qualité sanitaire des produits bio contribue à la santé des consommateurs et n'engendre pas de coût supplémentaire pour la santé publique (cancers liés à l'usage de pesticides)."
 intro:
   heading: "Ce que nous offrons"
   text: "Greenland touche deux volets pour augmenter la production AGRICOLE."
 products:
-  - image: img/about-shade-grown.jpg
-    text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-  - image: /img/about-shade-grown.jpg
-    text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+  - image: img/about-single-origin.jpg
+    text: "Nous vendons des engrais verts et torréfiés provenant directement d'agriculteurs indépendants et de coopératives agricoles. Nous sommes fiers d'offrir une variété des engrais cultivés avec le plus grand soin pour l'environnement et les communautés locales."
+  - image: /img/recp.jpg
+    text: "Des dizaines de millions de téléphones mobiles dorment dans les tiroirs des Français qui ont souvent du mal en s’en défaire après quelques années de bons et loyaux services. Et pourtant, tous ces téléphones pourraient servir à d’autres ou fournir des matériaux importants pour la fabrication de nouveaux téléphones."
 values:
-  heading: Our values
-  buttonText: Read more
+  heading: Nos valeurs
+  buttonText: Lire la suite
   buttonLink: /values
   image: img/home-about-section.jpg
-  text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+  text: Les engrais est une partie étonnante de la culture humaine, mais il a aussi un côté sombre - celui du colonialisme et de l'abus aveugle des ressources naturelles et des vies humaines. Nous voulons inverser la tendance et redonner au commerce du café la nature exaltante, stimulante et unificatrice de la boisson.
 ---

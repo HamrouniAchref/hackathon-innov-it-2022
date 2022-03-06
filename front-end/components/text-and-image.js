@@ -1,6 +1,12 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-export default function TextAndImage({heading, text, image, buttonLink, buttonText}) {
+export default function TextAndImage({
+  heading,
+  text,
+  image,
+  buttonLink,
+  buttonText,
+}) {
   return (
     <div className="bg-grey-1 pv4">
       <div className="ph3 mw7 center">
@@ -14,11 +20,11 @@ export default function TextAndImage({heading, text, image, buttonLink, buttonTe
           </div>
         </div>
         <div className="tc">
-          <Link href={buttonLink} >
+          <Link href="/marche">
             <a className="btn raise">{buttonText}</a>
           </Link>
         </div>
       </div>
     </div>
-  )
+  );
 }

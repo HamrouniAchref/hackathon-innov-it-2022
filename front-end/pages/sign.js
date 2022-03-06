@@ -14,9 +14,9 @@ export default function Blog() {
           <title>Blog | {CMS_NAME}</title>
         </Head>
         <Jumbotron
-          title="Latest stories"
+          title="Accéder à votre compte"
           subtitle=""
-          imageUrl="/img/logg.png"
+          imageUrl="/img/home-jumbotron.jpg"
         />
         <div className="mw9 center">
           <ul className="flex-ns flex-wrap mhn1-ns pa5-m justify-center">
@@ -36,17 +36,17 @@ export async function getStaticProps() {
 }
 
 const SignForm = () => (
-  <div className="mb4" style={{ margin: "2rem 0" }}>
-    <h4 className="f3 b lh-title mb3 tc">Welcome!</h4>
+  <div className="mb4" style={{ margin: "4rem 0" }}>
+    <h4 className="f3 b lh-title mb3 tc">Bienvenu!</h4>
     <form action="">
-      <div className="flex-l mhn1-l" style={{ flexDirection: "column" }}>
+      <div className="flex-l" style={{ flexDirection: "column" }}>
         <div className="ph1-l w-100-l" style={{ width: "100%" }}>
           <fieldset>
             <input
               type="text"
               id="name"
               name="name"
-              placeholder="Email"
+              placeholder="E-mail"
               className=" mb2"
             />
             <label htmlFor="name">Name</label>
@@ -58,7 +58,7 @@ const SignForm = () => (
               type="password"
               id="email"
               name="email"
-              placeholder="Password"
+              placeholder="Mot de passe"
               className=" mb2"
             />
             <label htmlFor="email">Email</label>
@@ -68,7 +68,7 @@ const SignForm = () => (
 
       <div className="tc">
         <button type="submit" className="btn w-100 w-auto-ns raise">
-          Submit
+          Connexion
         </button>
       </div>
     </form>

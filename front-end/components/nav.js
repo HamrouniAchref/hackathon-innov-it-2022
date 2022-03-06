@@ -14,7 +14,7 @@ export default function Nav({ logo }) {
         className="pa3 db mr4 h-100 w3 flex-none"
         style={{ width: "5rem" }}
       >
-        <img src={logo} alt="Kaldi logo" className="br0 db mb0 w-100" />
+        <img src={logo} alt="Greenland logo" className="br0 db mb0 w-100" />
       </a>
       <ul className="flex b grey-3">
         {metaData.menus.map((m) => {

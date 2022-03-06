@@ -28,27 +28,27 @@ export default function Footer() {
             <ul className="mb3">
               <li>
                 <a href="/" className="link">
-                  Home
+                  Utilisateur
                 </a>
               </li>
               <li>
                 <a href="/products" className="link">
-                  Our products
+                  Réparateur
                 </a>
               </li>
               <li>
                 <a href="/values" className="link">
-                  About
+                  Marché
                 </a>
               </li>
               <li>
                 <a href="/post" className="link">
-                  Blog
+                  Formation
                 </a>
               </li>
               <li>
                 <a href="/contact" className="link">
-                  Contact
+                  Equipe
                 </a>
               </li>
             </ul>

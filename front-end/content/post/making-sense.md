@@ -1,7 +1,7 @@
 ---
-title: "Making sense of the SCAA’s new Flavor Wheel"
-date: '2016-12-17T15:04:10.000Z'
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+title: "Donner un sens à la nouvelle roue des saveurs de la SCAA"
+date: "2016-12-17T15:04:10.000Z"
+description: La roue des saveurs du dégustateur de café, la ressource officielle utilisée par les dégustateurs de café, a été révisée pour la première fois cette année.
 image: /img/blog-flavor_wheel.jpg
 ---
 

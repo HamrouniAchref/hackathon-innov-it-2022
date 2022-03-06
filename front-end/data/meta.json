@@ -10,15 +10,19 @@
       "url": "/products"
     },
     {
-      "page": "Reparateur",
+      "page": "Réparateur",
       "url": "/values"
+    },
+    {
+      "page": "Marché",
+      "url": "/marche"
     },
     {
       "page": "Formation",
       "url": "/post"
     },
     {
-      "page": "Team",
+      "page": "Equipe",
       "url": "/team"
     },
     {
