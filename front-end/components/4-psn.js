@@ -4,7 +4,13 @@ export default function FourPerson({ heading, description, blurbs }) {
       <div className="ph3 mw7 center">
         <h2 className="f2 b lh-title mb2">{heading}</h2>
         <p className="mb4 mw6">{description}</p>
-        <div className="flex-ns flex-wrap mhn2-ns mb3">
+        <div
+          className="flex-ns mhn2-ns mb3"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
           {blurbs.map((p) => (
             <div key={p.name} className="ph2-ns w-50-ns mb4">
               <div className="flex bg-grey-1">

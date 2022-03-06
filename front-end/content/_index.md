@@ -7,7 +7,7 @@ blurb:
   text: "L'absence d'utilisation de produits chimiques de synthèse (engrais azoté, pesticides) réduit le coût de dépollution de l'eau; La qualité sanitaire des produits bio contribue à la santé des consommateurs et n'engendre pas de coût supplémentaire pour la santé publique (cancers liés à l'usage de pesticides)."
 intro:
   heading: "Ce que nous offrons"
-  text: "Greenland touche deux volets pour augmenter la production AGRICOLE."
+  text: "Greenland touche deux volets pour augmenter la production agricole."
 products:
   - image: img/about-single-origin.jpg
     text: "Nous vendons des engrais verts et torréfiés provenant directement d'agriculteurs indépendants et de coopératives agricoles. Nous sommes fiers d'offrir une variété des engrais cultivés avec le plus grand soin pour l'environnement et les communautés locales."
